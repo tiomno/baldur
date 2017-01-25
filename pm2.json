@@ -1,0 +1,12 @@
+{
+  "apps": [{
+     "name": "baldur",
+     "cwd": "/Users/tiomno/Sites/baldur",
+     "script": "./node_modules/.bin/actionhero",
+     "args": "start",
+     "watch": false,
+     "env": {
+       "NODE_ENV": "development"
+     }
+  }]
+}

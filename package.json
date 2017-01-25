@@ -1,0 +1,43 @@
+{
+  "name": "Baldur-connecDIMCloud-API",
+  "version": "0.1.0",
+  "description": "Cloud-based RESTful API for connecDIMCloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --no-colors",
+    "jscs": "jscs --no-colors .",
+    "start": "pm2 start pm2.json",
+    "restart": "pm2 restart pm2.json",
+    "stop": "pm2 stop pm2.json",
+    "delete": "pm2 delete pm2.json",
+    "debug": "./node_modules/.bin/actionhero start --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.cophos.at:connecdim/baldur.git"
+  },
+  "keywords": [
+    "baldur",
+    "rest",
+    "restful",
+    "api",
+    "connecdimcloud"
+  ],
+  "author": "Tridonic R&D Australia",
+  "license": "ISC",
+  "dependencies": {
+    "actionhero": "15.1.0",
+    "graceful-fs": "4.1.8",
+    "mysql": "2.11.1",
+    "pug": "2.0.0-beta6",
+    "pug-load": "1.0.3",
+    "sequelize": "3.24.3"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "jscs": "^3.0.7",
+    "mocha": "^2.5.3",
+    "request": "^2.75.0",
+    "should": "^8.4.0"
+  }
+}
