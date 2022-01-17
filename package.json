@@ -26,12 +26,12 @@
   "author": "Tridonic R&D Australia",
   "license": "ISC",
   "dependencies": {
-    "actionhero": "15.1.0",
+    "actionhero": "19.0.4",
     "graceful-fs": "4.1.8",
     "mysql": "2.11.1",
-    "pug": "2.0.0-beta6",
+    "pug": "3.0.1",
     "pug-load": "1.0.3",
-    "sequelize": "3.24.3"
+    "sequelize": "5.22.5"
   },
   "devDependencies": {
     "istanbul": "^0.4.5",
